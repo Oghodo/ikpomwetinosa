@@ -1,0 +1,57 @@
+/* ============================
+   IKPONWETINOSA LTD - LARGE SCREEN
+============================ */
+
+@media (min-width: 768px) {
+
+  /* HEADER */
+  nav ul {
+    display: flex !important;
+    flex-direction: row;
+    position: static;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+  }
+
+  nav ul li a {
+    padding: 5px 10px;
+  }
+
+  #menuToggle {
+    display: none;
+  }
+
+  /* HERO */
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: left;
+  }
+
+  .hero-text h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+
+  .hero-img img {
+    width: 500px;
+    height: auto;
+  }
+
+  /* PROPERTIES */
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1200px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
